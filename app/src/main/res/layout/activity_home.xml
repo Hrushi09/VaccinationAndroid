@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="30dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtsignout"
+            android:text="SignOut"
+            android:textSize="15dp"
+            android:fontFamily="@font/graphikregular"
+            android:layout_gravity="right"
+            android:layout_margin="20dp"
+            android:textColor="#304FFE"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+
+        <TextView
+
+            android:text="Vaccination App"
+            android:textSize="25dp"
+            android:fontFamily="@font/graphikregular"
+            android:layout_gravity="center"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/icon"/>
+
+        <Button
+            android:id="@+id/btnapointmentlist"
+            android:text="Display Existing Appointment List"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#fff"
+
+            android:fontFamily="@font/graphikregular"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:textStyle="bold"
+            android:background="@drawable/button_rounded" />
+
+        <Button
+            android:id="@+id/btneditapointment"
+            android:text="Edit/Modify Appointment"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#fff"
+
+            android:fontFamily="@font/graphikregular"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:textStyle="bold"
+            android:background="@drawable/button_rounded" />
+
+        <Button
+            android:id="@+id/btnHospitals"
+            android:text="Book New Appointment"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="30dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="#fff"
+
+            android:fontFamily="@font/graphikregular"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:textStyle="bold"
+            android:background="@drawable/button_rounded" />
+
+
+
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="For any Queries?"
+                android:textStyle="bold"
+                />
+            <TextView
+                android:textColor="#304FFE"
+                android:id="@+id/tvquery"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="  CONTACT US"
+                android:textStyle="bold"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
